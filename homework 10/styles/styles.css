@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(4, 75, 75);
+}
+
+.box{
+  
+}
+
+
+.border {
+    height: 230px;
+    margin-left: 100px;
+    border: solid;
+    border-color: rgb(3, 52, 52);
+    width: 280px;
+    background-color: rgb(3, 52, 52);
+    
+}
+
+.name {
+    color: rgb(21, 147, 147);
+    font-weight: 600;
+}
+
+.founder {
+    font-style: italic;
+}
+
+.plus{
+  color: rgb(3, 52, 52);
+    background-color: lightsalmon;
+    position: relative;
+    top: 10px;
+    border: solid;
+    border-radius: 60px;
+    margin-left: 110px;
+    width: 55px;
+    cursor: pointer;
+}
+
+
+
+.plus:hover{
+    background-color: rgb(99, 216, 220);
+}
